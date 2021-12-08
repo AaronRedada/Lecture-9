@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int loop = 1;
+    
+    while (loop > 0) {
+        int x;
+        cout << "Enter a number between 1 and 2: \n";
+        cin >> x;
+        if (x == 1) {
+            cout << "You have entered the number 1\n";
+            cout << endl;
+        }
+        else if (x == 2) {
+            cout << "You have entered the number 2\n";
+            cout << endl;
+        }
+        else {
+            cout << "Invalid Input\n";
+            cout << endl;
+        }
+    }
+
+}
